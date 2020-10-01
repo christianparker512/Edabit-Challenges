@@ -1,0 +1,16 @@
+function and(a, b) {
+	return a && b;
+}
+
+function and(a, b) {
+	let bool = (a === b && b != false ) ? true : false;
+	return bool;
+}
+
+function and(a, b) {
+	if (a && b){
+		return(true);
+	}else{
+		return(false);
+	}
+}
