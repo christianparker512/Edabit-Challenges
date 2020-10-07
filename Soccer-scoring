@@ -1,0 +1,6 @@
+function footballPoints(wins, draws, losses) {
+	var x = wins * 3;
+	var y = draws * 1
+	var z = losses * 0;
+	return x + y + z;
+}
