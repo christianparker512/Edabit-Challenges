@@ -1,0 +1,5 @@
+const turtles = ["Raphael", "Michelangelo", "Leonardo", "Donatello"]
+
+function turtlePower(turtles) {
+  return turtles[3];
+}
