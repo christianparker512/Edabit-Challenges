@@ -1,0 +1,12 @@
+class Person {
+	constructor(name, age) {
+		this.name = name
+		this.age = age
+	}
+		
+	compareAge(other) {
+		let i = Math.sign(other.age - this.age),
+				x = ["the same age as", "older than"][i] || "younger than";
+		return `${other.name} is ${x} me.`;
+	}
+}
