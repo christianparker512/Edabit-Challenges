@@ -1,0 +1,16 @@
+function isNegative (input) {
+    if (isNaN(input) || parseFloat(input) > 0) {
+        return false;
+    } else {
+        return true;
+    }
+}
+
+function isNegative(input){
+    if (isNaN(input) || parseFloat(input) >0) {
+        return false;
+    }else {
+    return true;
+    }
+
+}
