@@ -1,0 +1,11 @@
+function rectangleConstructor (ht, wt, color){
+    var newRectangle = {}
+        newRectangle.height = ht;
+        newRectangle.width = wt;
+        newRectangle.rectangleColor = color;
+    return newRectangle;
+}
+
+makeRectangle(rectangleConstructor(4, 8, "green"));
+makeRectangle(rectangleConstructor(10, 10, "orange"));
+makeRectangle(rectangleConstructor(20, 5, "pink"));
