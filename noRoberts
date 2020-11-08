@@ -1,0 +1,50 @@
+ function noRoberts  (array){
+//     let bobList = {
+//         Robert,
+//         Rob,
+//         Bob,
+//         Bobby,
+//         Bobert,
+//
+//     }
+//     var bucket = [];
+//     for (var =i; i < array.length; i++){
+//         if (array[i] == "Bob") {
+//             bucket.push(array[i]);
+//         }
+//     }
+//     return bucket;
+// }
+
+function noRoberts (arrayOfNames) {
+    //Need a loop.
+    // Going to be pushing things into the bucket.
+    //     Things are going to be the not roberts
+    var bucket = [];
+    arrayOfNames.forEach(function(possibleRobert){
+        possibleRobert =possibleRobert.toLowerCase();
+        if (!(possibleRobert === "robert" || possibleRobert === "rob" || possibleRobert === "robert" || posibleRobert ==="bobert" || possibleRobert === "robby")) {
+            bucket.push(possibleRobert);
+        }
+        })
+    return bucket;
+}
+
+/ function noRoberts(arrayOfNames) {
+//     var typesOfRobert = ["robert", "rob", "bob", "bobby", "bobbert", "robby"];
+//     arrayOfNames.forEach(function(possibleRobert){
+//         if(typesOfRobert.includes(possibleRobert.toLowerCase())) {
+//             bucket.push(possibleRobert);
+//         }
+//     })
+//     return bucket;
+// }
+
+// function noRoberts(arrayOfNames) {
+//     var typesOfRobert = ["robert", "rob", "bob", "bobby", "bobbert", "robby"];
+//
+// }
+// console.log(noRoberts(arrayOfNames)["Jim", "Bob", "Martha", "Robert", "Lucille"]);
+// console.log(noRoberts(arrayOfNames)["Hank", "bob", "Robby", "Gertrude", "larry"]);
+// console.log(noRoberts(arrayOfNames)["rob", "sally", "Susan", "Roberto", "roger"]);
+// console.log(noRoberts(arrayOfNames)["Joebob", "roBert", "samantha", "Niel", "rboert"]);
