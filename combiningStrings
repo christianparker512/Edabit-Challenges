@@ -1,0 +1,17 @@
+function portmanteau(arrayOfStrings){
+    // How to combine words? Concat
+    // have a string variable to act as a "bucket"
+    var superString = "";
+   for(var i=0; i <arrayofStrings.length; i++){
+       superString = superString + arrayOfStrings[i].trim();
+       // or superString += arrayOfStrings[i];
+   }
+    return superString;
+}
+
+function portmanteau(arrayOfStrings) {
+    return arrayOfStrings.join("");
+}
+// console.log(portmanteau(["Row", "row", "fight", "the", "power"]))
+// console.log(portmanteau(["Hello", "world"]))
+// console.log(portmanteau(["one", "two", "three", "four"]))
